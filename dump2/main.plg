@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4192.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\WorkSpace_Study\DUMP\dump\dump2\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4192.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP41A3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP41A3.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(56) : error C2146: syntax error : missing ';' before identifier 'ModuleName'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(56) : error C2501: 'PSTR' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(56) : error C2501: 'ModuleName' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(57) : error C2146: syntax error : missing ';' before identifier 'hFile'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(57) : error C2501: 'HANDLE' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(57) : error C2501: 'hFile' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(58) : error C2146: syntax error : missing ';' before identifier 'MappedAddress'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(58) : error C2501: 'PUCHAR' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(58) : error C2501: 'MappedAddress' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(62) : error C2146: syntax error : missing ';' before identifier 'FileHeader'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(62) : error C2501: 'PIMAGE_NT_HEADERS32' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(62) : error C2501: 'FileHeader' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(64) : error C2146: syntax error : missing ';' before identifier 'LastRvaSection'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(64) : error C2501: 'PIMAGE_SECTION_HEADER' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(64) : error C2501: 'LastRvaSection' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(65) : error C2146: syntax error : missing ';' before identifier 'NumberOfSections'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(65) : error C2501: 'ULONG' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(65) : error C2501: 'NumberOfSections' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(66) : error C2146: syntax error : missing ';' before identifier 'Sections'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(66) : error C2501: 'PIMAGE_SECTION_HEADER' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(66) : error C2501: 'Sections' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(67) : error C2146: syntax error : missing ';' before identifier 'Characteristics'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(67) : error C2501: 'ULONG' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(67) : error C2501: 'Characteristics' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(68) : error C2146: syntax error : missing ';' before identifier 'fSystemImage'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(68) : error C2501: 'BOOLEAN' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(68) : error C2501: 'fSystemImage' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(69) : error C2146: syntax error : missing ';' before identifier 'fDOSImage'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(69) : error C2501: 'BOOLEAN' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(69) : error C2501: 'fDOSImage' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(70) : error C2146: syntax error : missing ';' before identifier 'Links'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(70) : error C2501: 'LIST_ENTRY' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(70) : error C2501: 'Links' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(71) : error C2146: syntax error : missing ';' before identifier 'SizeOfImage'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(71) : error C2501: 'ULONG' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(71) : error C2501: 'SizeOfImage' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(77) : error C2146: syntax error : missing ';' before identifier 'DECLSPEC_IMPORT'
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(77) : error C2501: 'HANDLE' : missing storage-class or type specifiers
+c:\program files (x86)\microsoft sdk\include\dbghelp.h(77) : fatal error C1004: unexpected end of file found
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+main.exe - 39 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
